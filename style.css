@@ -3,10 +3,13 @@
     text-align: center;
 }
 /* GENERALS */
-nav,
-header,
-main,
-footer{
+#navbar,
+#hero,
+#portfolio,
+#about,
+#contacts,
+#footer,
+#copyright{
     border: 1px solid blue;
 }
 [class*="col-"]{
