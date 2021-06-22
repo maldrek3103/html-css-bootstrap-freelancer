@@ -1,10 +1,18 @@
-.row{
-    border: 1px solid #000;
+/* RESET */
+*{
     text-align: center;
 }
-[class*="col-"]{
-    border: 1px dotted goldenrod;
+/* GENERALS */
+nav,
+header,
+main,
+footer{
+    border: 1px solid blue;
 }
+[class*="col-"]{
+    border: 1px dotted red;
+}
+/* OTHERS */
 #navbar{
     height: 90px;
 }
