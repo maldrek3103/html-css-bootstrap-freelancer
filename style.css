@@ -1,0 +1,16 @@
+.row{
+    border: 1px solid #000;
+    text-align: center;
+}
+[class*="col-"]{
+    border: 1px dotted goldenrod;
+}
+#navbar{
+    height: 90px;
+}
+#hero{
+    height: 490px;
+}
+#portfolio{
+    height: 2500px;
+}
