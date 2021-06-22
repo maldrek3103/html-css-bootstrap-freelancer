@@ -12,7 +12,4 @@ footer{
 [class*="col-"]{
     border: 1px dotted red;
 }
-/* OTHERS */
-#navbar{
-    height: 90px;
-}
+
