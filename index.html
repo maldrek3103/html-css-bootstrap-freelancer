@@ -7,62 +7,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Freelance</title>
 </head>
 
 <body>
-    <nav class="container-fluid">
-        <div id="navbar" class="row">
-            <div class="col-6">Logo</div>
-            <div class="col-6">Menu</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
     </nav>
-    <header class="container-fluid">
-        <div id="hero" class="row align-items-center">
-            <div class="col-8 offset-2 col-lg-4 offset-lg-4">Hero Image</div>
-            <div class="col-10 offset-1 col-lg-8 offset-lg-2">Hero Title</div>
-            <div class="col-6 offset-3 col-lg-4 offset-lg-4">Text Spacer</div>
-            <div class="col-12 col-lg-6 offset-lg-3">Hero Text</div>
-        </div>
+    <header class="container-fluid bg-green text-center text-white mb-3">
+        <section id="hero" class="row justify-content-center">
+            <div class="col-6"><img src="./img/avatar.svg" alt="Hero">
+            </div>
+            <div class="col-12">
+                <h1>START BOOTSTRAP</h1>
+            </div>
+            <div class="col-12 mb-3"><i class="bi bi-star-fill"></i></div>
+            <div class="col-12 mb-3">
+                <h4>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
+            </div>
+        </section>
     </header>
-    <main class="container-fluid">
-        <div id="portfolio" class="row align-items-center">
-            <div class="col-6 offset-3 col-lg-4 offset-lg-4">Portfolio</div>
-            <div class="col-6 offset-3 col-lg-4 offset-lg-4">Text Spacer</div>
-            <div class="col-12 col-lg-5 offset-lg-1 col-xxl-4">Image</div>
-            <div class="col-12 col-lg-5 col-xxl-4">Image</div>
-            <div class="col-12 col-lg-5 offset-lg-1 col-xxl-4">Image</div>
-            <div class="col-12 col-lg-5 col-xxl-4">Image</div>
-            <div class="col-12 col-lg-5 offset-lg-1 col-xxl-4">Image</div>
-            <div class="col-12 col-lg-5 col-xxl-4">Image</div>
-        </div>
-        <div id="about" class="row align-items-center">
-            <div class="col-4 offset-4">About</div>
-            <div class="col-4 offset-4">Text Spacer</div>
-            <div class="col-8 offset-2 col-lg-4 offset-lg-2">About Text Pt.1</div>
-            <div class="col-8 offset-2 col-lg-4 offset-lg-0">About Text Pt.2</div>
-            <div class="col-4 offset-4">Download Button</div>
-        </div>
-        <div id="contacts" class="row align-items-center">
-            <div class="col-4 offset-4">Contact Me</div>
-            <div class="col-4 offset-4">Text Spacer</div>
-            <div class="col-6 offset-3 col-lg-8 offset-lg-2">Name</div>
-            <div class="col-6 offset-3 col-lg-8 offset-lg-2">Email</div>
-            <div class="col-6 offset-3 col-lg-8 offset-lg-2">Phone Number</div>
-            <div class="col-6 offset-3 col-lg-8 offset-lg-2">Message</div>
-            <div class="col-6 offset-3 col-lg-8 offset-lg-2">Send Button</div>
-        </div>
+    <main class="container-fluid text-center">
+        <section id="portfolio" class="row align-items-center mb-3">
+            <div class="col-12">
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="col-12 mb-3"><i class="bi bi-star-fill"></i></div>
+            <div class="col-12 mb-3"><img src="./img/cabin.png" alt="Cabin" class="img-fluid rounded">
+            </div>
+            <div class="col-12 mb-3"><img src="./img/cake.png" alt="Cake" class="img-fluid rounded">
+            </div>
+            <div class="col-12 mb-3"><img src="./img/circus.png" alt="Circus" class="img-fluid rounded">
+            </div>
+            <div class="col-12 mb-3"><img src="./img/game.png" alt="Game" class="img-fluid rounded">
+            </div>
+            <div class="col-12 mb-3"><img src="./img/safe.png" alt="Safe" class="img-fluid rounded">
+            </div>
+            <div class="col-12 mb-3"><img src="./img/submarine.png" alt="Submarine" class="img-fluid rounded">
+            </div>
+        </section>
+        <section id="about" class="row justify-content-center bg-green text-white">
+            <div class="col-12">
+                <h2>ABOUT</h2>
+            </div>
+            <div class="col-12 mb-3"><i class="bi bi-star-fill"></i></div>
+            <div class="col-8 text-start mb-3">
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
+                    source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy
+                    customization.</p>
+            </div>
+            <div class="col-8 text-start mb-3">
+                <p>
+                    Whether you're a student looking to showcase
+                    your work, a
+                    professional looking to attract clients, or a graphic artist looking to share your projects, this
+                    tmplate is the perfect starting point!
+                </p>
+            </div>
+            <div class="col-12 mb-3"><a class="btn btn-primary" href="#" role="button"><i
+                        class="bi bi-download"></i>DOWNLOAD</a></div>
+        </section>
+        <section id="contacts" class="row justify-content-center">
+            <div class="col-12">
+                <h2>CONTACT ME</h2>
+            </div>
+            <div class="col-12 mb-3"><i class="bi bi-star-fill"></i></div>
+            <form class="col-8 text-start mb-3">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                    <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Phone Number">
+                    <label for="floatingInput">Phone Number</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Message" id="floatingTextarea2"
+                        style="height: 200px"></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </section>
     </main>
-    <footer class="container-fluid">
-        <div id="footer" class="row align-items-center">
-            <div class="col-12 col-lg-4">Location</div>
-            <div class="col-12 col-lg-4">Around The Web</div>
-            <div class="col-12 col-lg-4">About Freelancer</div>
-        </div>
-        <div id="copyright" class="row align-items-center">
-            <div class="col-6 offset-3">Copyright</div>
-        </div>
+    <footer class="container-fluid bg-blue text-center text-white">
+        <section id="footer" class="row align-items-center">
+            <div class="col-12">
+                <h4>Location</h4>
+                <p>2215 John Daniel Drive Clark, MO 54243</p>
+            </div>
+            <div class="col-12">
+                <h4>Around The Web</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Google</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div class="col-12">
+                <h4>About Freelancer</h4>
+                <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#"
+                        class="text-green">Start Bootstrap</a>.
+                </p>
+            </div>
+        </section>
+        <section id="copyright" class="row align-items-center">
+            <div class="col-12">
+                <h6>Copyright Your Website 2019</h6>
+            </div>
+        </section>
     </footer>
 </body>
 

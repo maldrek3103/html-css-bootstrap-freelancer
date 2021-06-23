@@ -1,18 +1,13 @@
-/* RESET */
-*{
-    text-align: center;
+a{
+    text-decoration: none;
+    color: #fff;
 }
-/* GENERALS */
-#navbar,
-#hero,
-#portfolio,
-#about,
-#contacts,
-#footer,
-#copyright{
-    border: 1px solid blue;
+.bg-green{
+    background-color: #1abc9c;
 }
-[class*="col-"]{
-    border: 1px dotted red;
+.bg-blue{
+    background-color: #3a546d;
 }
-
+.text-green{
+    color: #1abc9c;
+}
